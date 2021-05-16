@@ -1,4 +1,4 @@
-#who has the advantage in python?
+#who has the advantage in Risk Game?
 #this is my code for check it!
 
 import random
@@ -9,7 +9,7 @@ dc=6
 number1=3000
 #how many number do we check for
 
-actions=[]                       #list of all actions
+actions=[]                       #list of all protectector kills
 
 def dice():
     a0=random.randint(1,dc)     
@@ -20,7 +20,7 @@ def dice():
     b=sorted([a0,a1,a2])
     c=sorted([a3,a4])
     protectorkill=0
-			#in risk attacker throw 3 dice protector throw 2 dice, when dices sorted who play dice bigger he wons.
+			#in risk attacker throw 3 dice, protector throw 2 dice, when dices sorted who play dice bigger he wons.
 			#But if dices are same protector wins.
     			#example: A:2-3-5  P=4-3   --> 5>4: one protector died.  3=3:one attacker died, 1 to 1
 
